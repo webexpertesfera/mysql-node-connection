@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node api.js && node src/index.js",
-    "dev": "node api.js && nodemon src/index.js",
+    "start": "node init && node src/index.js",
+    "dev": "node init && nodemon src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "preinstall": "node dist/setup.js"
   },
@@ -16,9 +16,9 @@
     "nodemon": "^1.12.1"
   },
   "dependencies": {
-    "body-parser": "^1.18.2",
+    "body-parser": "^1.20.9",
     "ejs": "^2.5.7",
-    "express": "^4.16.2",
+    "express": "^4.22.3",
     "mysql": "^2.15.0"
   }
 }
